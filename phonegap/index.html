@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title></title>
+    <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+
+    <!-- Extra Codiqa features -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- jQuery and jQuery Mobile -->
+    <script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+    <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+    <!-- Extra Codiqa features -->
+    <script src="https://d10ajoocuyu32n.cloudfront.net/codiqa.ext.js"></script>
+
+</head>
+<body>
+
+<!--            Home                    -->
+
+<div data-role="page" id="homePage">
+
+    <div data-role="navbar" data-iconpos="top">
+        <ul>
+            <li>
+                <a href="#homePage" data-transition="fade" data-theme="e" data-icon=""
+                   class="ui-btn-active ui-state-persist">
+                    Info
+                </a>
+            </li>
+            <li>
+                <a href="#callPage" data-transition="fade" data-theme="e" data-icon="">
+                    Call
+                </a>
+            </li>
+            <li>
+                <a href="#menuPage" data-transition="fade" data-theme="e" data-icon="">
+                    Menu
+                </a>
+            </li>
+            <li>
+                <a href="#orderPage" data-transition="fade" data-theme="e" data-icon="">
+                    Order
+                </a>
+            </li>
+            <li>
+                <a href="#mapPage" data-transition="fade" data-theme="e" data-icon="">
+                    Map
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="logo">
+        <img src="images/pizza_logo.png" alt="image" class="logo">
+    </div>
+
+    <!--    <div data-theme="a" data-role="header" data-position="fixed">    -->
+    <h1>
+        'Because you can't cook it cold.'
+    </h1>
+    <!--    </div>   -->
+    <p>Mauris risus velit, ornare non ullamcorper non, porttitor ut magna. In mattis lobortis leo eu laoreet. Aliquam
+        erat volutpat. Nam rhoncus, erat eu
+        pharetra mattis, orci justo tempor justo, in imperdiet tortor turpis nec mauris. Fusce a arcu vitae risus
+        dignissim iaculis. Vivamus lorem eros, porta a
+        vestibulum sit amet, pharetra sed justo. Praesent quis elit a orci egestas consectetur.</p>
+
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <h3>
+            &copy; 2013 <a href="http://www.gauthierdevelopment.net">Gauthier Development</a>
+        </h3>
+    </div>
+</div>
+
+<!--            End home page               -->
+
+<!--            Call Page                   -->
+<div data-role="page" id="callPage">
+
+    <div data-role="navbar" data-iconpos="top">
+        <ul>
+            <li>
+                <a href="#homePage" data-transition="fade" data-theme="e" data-icon="">
+                    Info
+                </a>
+            </li>
+            <li>
+                <a href="#callPage" data-transition="fade" data-theme="e" data-icon=""
+                   class="ui-btn-active ui-state-persist">
+                    Call
+                </a>
+            </li>
+            <li>
+                <a href="#menuPage" data-transition="fade" data-theme="e" data-icon="">
+                    Menu
+                </a>
+            </li>
+            <li>
+                <a href="#orderPage" data-transition="fade" data-theme="e" data-icon="">
+                    Order
+                </a>
+            </li>
+            <li>
+                <a href="#mapPage" data-transition="fade" data-theme="e" data-icon="">
+                    Map
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="logo">
+        <img src="images/pizza_logo.png" alt="image" class="logo">
+    </div>
+
+    <h1>Welcome to the Haut&eacute; Cuisine mobile web site.</h1>
+
+    <p>
+        <a href="tel:555-555-5555" data-role="button">Call Us</a>
+
+    </p>
+
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <h3>
+            &copy; 2013 <a href="http://www.gauthierdevelopment.net">Gauthier Development</a>
+        </h3>
+    </div>
+</div>
+
+<!--            End Call page               -->
+
+<!--            Menu Page                   -->
+<div data-role="page" id="menuPage">
+
+    <div data-role="navbar" data-iconpos="top">
+        <ul>
+            <li>
+                <a href="#homePage" data-transition="fade" data-theme="e" data-icon="">
+                    Info
+                </a>
+            </li>
+            <li>
+                <a href="#callPage" data-transition="fade" data-theme="e" data-icon="">
+                    Call
+                </a>
+            </li>
+            <li>
+                <a href="#menuPage" data-transition="fade" data-theme="e" data-icon=""
+                   class="ui-btn-active ui-state-persist">
+                    Menu
+                </a>
+            </li>
+            <li>
+                <a href="#orderPage" data-transition="fade" data-theme="e" data-icon="">
+                    Order
+                </a>
+            </li>
+            <li>
+                <a href="#mapPage" data-transition="fade" data-theme="e" data-icon="">
+                    Map
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="logo">
+        <img src="images/pizza_logo.png" alt="image" class="logo">
+    </div>
+    <div data-role="content">
+        <div data-product="1001" class="pizza">
+            <span data-name='Pepperoni'>Pepperoni: </span>
+            <!--<span data-price='12.95'>12.95</span>-->
+            <span class='description'>A spicy topping.</span>
+        </div>
+    </div>
+    <div data-role="content">
+        <div data-product="2001" class="pizza">
+            <span data-name='Sausage'>Sausage: </span>
+            <!--<span data-price='10.95'>10.95</span>-->
+            <span class='description'>Spicy Italian flavor.</span>
+        </div>
+    </div>
+    <div data-role="content">
+        <div data-product="3001" class="pizza">
+            <span data-name='Green-pepper'>Green Peppers: </span>
+            <!--<span data-price='11.95'>11.95</span>-->
+            <span class='description'>Picked fresh daily.</span>
+        </div>
+    </div>
+    <div data-role="content">
+        <div data-product="4001" class="pizza">
+            <span data-name='Olive'>Olives: </span>
+            <!--<span data-price='11.95'>11.95</span>-->
+            <span class='description'>Black and delicious on pizza.</span>
+        </div>
+    </div>
+    <div data-role="content">
+        <div data-product="5001" class="pizza">
+            <span data-name='Mushrooms'>Mushrooms: </span>
+            <!--<span data-price='11.95'>11.95</span>-->
+            <span class='description'>Grown in a dark dank place.</span>
+        </div>
+    </div>
+    <div data-role="content">
+        <div data-product="6001" class="pizza">
+            <span data-name='Pineapple'>Pineapple: </span>
+            <!--<span data-price='11.95'>11.95</span>-->
+            <span class='description'>From the tropics.</span>
+        </div>
+    </div>
+    <div class='cartDiv'>
+
+    </div>
+    <div>
+        <a href="#orderPage">
+            <button id="buy">Buy Now</button>
+        </a>
+    </div>
+    <div>
+        <button id="saveOrder">Save Order</button>
+    </div>
+    <div>
+        <button id="loadOrder">Load Order</button>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <h3>
+            &copy; 2013 <a href="http://www.gauthierdevelopment.net">Gauthier Development</a>
+        </h3>
+    </div>
+</div>
+
+<!--            End Menu page               -->
+
+
+<!--            Order Page                  -->
+
+<div data-role="page" id="orderPage">
+
+    <div data-role="navbar" data-iconpos="top">
+        <ul>
+            <li>
+                <a href="#homePage" data-transition="fade" data-theme="e" data-icon="">
+                    Info
+                </a>
+            </li>
+            <li>
+                <a href="#callPage" data-transition="fade" data-theme="e" data-icon="">
+                    Call
+                </a>
+            </li>
+            <li>
+                <a href="#menuPage" data-transition="fade" data-theme="e" data-icon="">
+                    Menu
+                </a>
+            </li>
+            <li>
+                <a href="#orderPage" data-transition="fade" data-theme="e" data-icon=""
+                   class="ui-btn-active ui-state-persist">
+                    Order
+                </a>
+            </li>
+            <li>
+                <a href="#mapPage" data-transition="fade" data-theme="e" data-icon="">
+                    Map
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class='cartDiv'>
+
+    </div>
+
+    <a href="sms://555-555-5555?body=pizza%20order" data-role="button">Text Your Pizza Order</a>
+
+    <a href="mailto:ryan.eugene.gauthier@gmail.com?subject=Pizza%20order&body=This%20is%20a%20test."
+       data-role="button">Email Your Pizza Order</a>
+
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <h3>
+            &copy; 2013 <a href="http://www.gauthierdevelopment.net">Gauthier Development</a>
+        </h3>
+    </div>
+</div>
+
+<!--            End Order page               -->
+
+<!--            Start map page              -->
+
+
+<div data-role="page" id="mapPage">
+
+    <div data-role="navbar" data-iconpos="top">
+        <ul>
+            <li>
+                <a href="#homePage" data-transition="fade" data-theme="e" data-icon="">
+                    Info
+                </a>
+            </li>
+            <li>
+                <a href="#callPage" data-transition="fade" data-theme="e" data-icon="">
+                    Call
+                </a>
+            </li>
+            <li>
+                <a href="#menuPage" data-transition="fade" data-theme="e" data-icon="">
+                    Menu
+                </a>
+            </li>
+            <li>
+                <a href="#orderPage" data-transition="fade" data-theme="e" data-icon="">
+                    Order
+                </a>
+            </li>
+            <li>
+                <a href="#mapPage" data-transition="fade" data-theme="e" data-icon=""
+                   class="ui-btn-active ui-state-persist">
+                    Map
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="directionMap"></div>
+
+    <!--Latitude: <span id="lat"></span><br/>-->
+    <!--Longitude: <span id="lng"></span>-->
+    <!--Url: <span id="url"></span>-->
+
+    <span class="padb5">Get directions from your location</span>
+
+    <div data-role="fieldcontain">
+        <input name="directions" id="searchinput1" placeholder="Your Address" value="" type="search">
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <h3>
+            &copy; 2013 <a href="http://www.gauthierdevelopment.net">Gauthier Development</a>
+        </h3>
+    </div>
+</div>
+
+
+<!--Javascript for Cart -->
+
+<script src="js/javascript.js"></script>
+

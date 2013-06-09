@@ -1,0 +1,25 @@
+.logo {
+    width: 360px;
+    background-color: lightgrey;
+}
+
+h1 {
+    text-align: center;
+}
+
+.map {
+    padding-left: 5px;
+}
+
+.padb5 {
+    padding-bottom: 5px;
+}
+
+.padt10 {
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
